@@ -1,4 +1,4 @@
-# * Emergency Contact QR Code Generator*
+# *Emergency Contact QR Code Generator*
 
 *A simple React application that allows users to create and manage emergency contact information, generating a unique QR code for each entry. The app also provides functionality to view, print, and delete data entries.*
 
@@ -80,6 +80,6 @@ npm start
 4. *Push to the branch (`git push origin feature-branch`).*
 5. *Open a pull request.*
 
-*## License*
+## *License*
 
 *This project is licensed under the MIT License.*
