@@ -1,8 +1,8 @@
-*# Emergency Contact QR Code Generator*
+# * Emergency Contact QR Code Generator*
 
 *A simple React application that allows users to create and manage emergency contact information, generating a unique QR code for each entry. The app also provides functionality to view, print, and delete data entries.*
 
-*## Features*
+## *Features*
 
 - *Form Submission:* Users can enter details like name, age, contact number, and guardian contact to generate a QR code.
 - *QR Code Generation:* The application generates a QR code for the entered emergency contact details.
@@ -10,28 +10,28 @@
 - *Print QR Code:* Allows users to print a wristband-style QR code with emergency contact details.
 - *Delete Data:* Users can delete entries from the database.
 
-*## Tech Stack*
+## *Tech Stack*
 
 - *Frontend:* React.js
 - *Backend:* Node.js (Express.js) *(Assumed for API interaction)*
 - *QR Code Generation:* A third-party API or service (like `qrcode` library) for generating QR codes.
 
-*## Installation*
+## *Installation*
 
-*### 1. Clone the repository:*
+### *1. Clone the repository:*
 
 ```bash
 git clone https://github.com/your-username/qr-code-generator.git
 ```
 
-*### 2. Install dependencies:*
+### *2. Install dependencies:*
 
 ```bash
 cd qr-code-generator
 npm install
 ```
 
-*### 3. Start the application:*
+### *3. Start the application:*
 
 ```bash
 npm start
@@ -39,14 +39,14 @@ npm start
 
 *The app will be available at `http://localhost:3000`.*
 
-*## API Endpoints*
+## *API Endpoints*
 
 - *`POST /api/person`:* Save emergency contact data and generate a QR code.
 - *`GET /api/data`:* Fetch saved emergency contact data.
 - *`GET /api/all-persons`:* Fetch all saved persons.
 - *`DELETE /api/delete/{id}`:* Delete a specific person by ID.
 
-*## Usage*
+## *Usage*
 
 1. *Enter Data:*
    - *Fill in the form with your emergency contact information (name, age, contact, guardian contact).*
@@ -64,7 +64,7 @@ npm start
 5. *Delete Data:*
    - *Click the **Delete** button next to an entry to remove it from the list.*
 
-*## Example Output*
+## *Example Output*
 
 *After submitting the form, the app will generate and display a QR code like this:*
 
@@ -72,7 +72,7 @@ npm start
 
 *Each QR code is unique and encodes the emergency contact information.*
 
-*## Contributing*
+## *Contributing*
 
 1. *Fork the repository.*
 2. *Create a new branch (`git checkout -b feature-branch`).*
