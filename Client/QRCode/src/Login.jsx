@@ -8,7 +8,7 @@ const Login = () => {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const navigate = useNavigate();
-  const backend = import.meta.env.VITE_BACKENDURL || `https://qrfind-backend.onrender.com`;
+  const backend = import.meta.env.VITE_BACKENDURL || `https://qrfind-backend.onrender.com/`;
   
   // Handle form submission
   const handleSubmit = async (e) => {
