@@ -28,6 +28,7 @@ const Signup = () => {
       setError(''); // Clear any previous errors
       setEmail('');
       setPassword('');
+      alert("Signed Up Succesfully!")
       navigate('/login'); // Navigate to the login page after successful sign-up
     } catch (error) {
       console.error('Error details:', error); // Log the error to see full details
