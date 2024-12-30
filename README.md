@@ -73,11 +73,10 @@ npm start
 
 ## Example Output
 
-After submitting the form, the app will generate and display a QR code like this:
+*After submitting the form, the app will generate and display a QR code like this:*
+*[QR Code Example](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png)*
 
-
-Each QR code is unique and encodes the emergency contact information.
-[QR Code Example](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png)
+*Each QR code is unique and encodes the emergency contact information.*
 
 *Each QR code is unique and encodes the emergency contact information.*
 
