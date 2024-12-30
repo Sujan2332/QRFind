@@ -10,15 +10,29 @@
 .signup-container h2{
     text-decoration: underline;
 }
+
+
 .signup{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     width: 600px;
-    min-height: 850px;
+    min-height: 765px;
     /* border: 2px solid red; */
 }
+@media (max-width:768px){
+    .signuptitle{
+        width: 350px;
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+    .signup{
+        /* border: 2px solid red; */
+        width: 400px;
+    }
+}
+
 .singupform{
     /* border: 2px solid red; */
     gap: 10px;

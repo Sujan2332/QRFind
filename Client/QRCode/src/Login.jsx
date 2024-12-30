@@ -48,7 +48,7 @@ const Login = () => {
 
   return (
     <div className='signup'>
-            <h1 className="title" style={{marginBottom:"50px",textDecoration:"underline"}}>QR Code Generator for Emergency Contact</h1>
+            <h1 className="signuptitle" style={{marginBottom:"50px",textDecoration:"underline"}}>QR Code Generator for Emergency Contact</h1>
     <div className="signup-container">
       <h2>Admin Login</h2>
 
