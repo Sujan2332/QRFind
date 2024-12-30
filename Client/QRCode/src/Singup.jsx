@@ -11,7 +11,7 @@ const Signup = () => {
   const [success, setSuccess] = useState('');
   const navigate = useNavigate();
 
-  const backend = import.meta.env.VITE_BACKENDURL;
+  const backend = import.meta.env.VITE_BACKENDURL || `https://qrfind-backend.onrender.com`;
 
   // Handle form submission
   const handleSubmit = async (e) => {

@@ -6,7 +6,7 @@ const UserDetails = () => {
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
 
-  const backend = import.meta.env.VITE_BACKENDURL;
+  const backend = import.meta.env.VITE_BACKENDURL || `https://qrfind-backend.onrender.com`;
 
   useEffect(() => {
     // Fetch the user data by ID from the backend API

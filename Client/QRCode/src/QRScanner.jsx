@@ -20,7 +20,7 @@ function QRScanner() {
   const filteredData = data.filter((item) =>
     item.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
-    const backend = import.meta.env.VITE_BACKENDURL;
+    const backend = import.meta.env.VITE_BACKENDURL || `https://qrfind-backend.onrender.com`;
 
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
