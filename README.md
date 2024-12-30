@@ -75,6 +75,7 @@ npm start
 
 *After submitting the form, the app will generate and display a QR code like this:*
 *[QR Code Example](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png)*
+[QRCODE](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2xmNGZyOXg5M3UzajZybTZzYnI0NnByaDNtbGhqZGZ1ZTRuMDdibCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/16dIgjWQjikY8/giphy.webp)
 
 *Each QR code is unique and encodes the emergency contact information.*
 
