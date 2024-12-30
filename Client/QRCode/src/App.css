@@ -20,6 +20,7 @@ body {
     padding: 30px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    margin: 10px;
 }
 
 .title {
@@ -64,7 +65,44 @@ body {
 .submit-btn:hover {
     background-color: #2980b9;
 }
-
+.logout{
+    background: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 2px 10px;
+    transition: 0.3s ease-in-out;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.logout:hover{
+    background: white;
+    /* border: 2px solid red; */
+    color: red;
+}
+.editing{
+    width: 200px;
+    min-height: 307px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.editing input{
+    text-align: center;
+}
+.editing button{
+    background: #4db2f5;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+button{
+    font-weight: 600;
+}
 /* QR Code Section */
 .qr-wrapper {
     margin-top: 30px;
