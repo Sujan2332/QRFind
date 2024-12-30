@@ -307,7 +307,7 @@ function QRScanner() {
     return (
         <div className="container">
              <button  className="logout" onClick={handleLogout}>Logout ?</button>
-            <h1 className="title">QR Code Generator for Emergency Contact</h1>
+            <h1 className="title" style={{textDecoration:"underline"}}>QR Code Generator for Emergency Contact <i class="fa-solid fa-qrcode" style={{marginLeft:"10px"}}></i></h1>
             <form onSubmit={handleSubmit} className="form">
                 <input
                     type="text"

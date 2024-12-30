@@ -56,6 +56,7 @@ const UserDetails = () => {
   return (
     <div className='Main'>
       <button className='share' onClick={handleShare}><i class="fa-solid fa-share"></i></button>
+      <h1 className="signuptitle" style={{marginBottom:"0px",textDecoration:"underline"}}>QR Code Generator for Emergency Contact <i class="fa-solid fa-qrcode" style={{marginLeft:"10px"}}></i></h1>
     <div className="user-details-container">
         <style>
             {`
@@ -72,6 +73,7 @@ position:fixed;
 right:20px;
 top:5px}
             .user-details-container {
+            background:white;
   padding: 20px;
   max-width: 800px;
   border:2px solid black;

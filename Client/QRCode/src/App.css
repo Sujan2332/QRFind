@@ -7,12 +7,26 @@
 
 body {
     background: #f7f7f7;
+    /* background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5wejZzb3JoNjhtamNhYWJlODBkZmN4b29mcHdjNDQ3aW54OGY4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2X9KCY4LGV9ok/giphy.webp');
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXd5d2twcGxmMTg1ZHplNzdudnkzcGMzODAwc2l4bTR0MTY0em1oYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/16dIgjWQjikY8/giphy.webp');
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWYzN3M2cHUzYnBzOXJzenIxZHhoZzl6Zmt2bW9mYTJhNzFjN2d3MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3q2PVucWrPPZgZqNf8/giphy.webp'); */
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-}
+    /* Ensure the background image covers the entire viewport */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Prevent the background image from repeating */
+    background-repeat: no-repeat;
+    /* Set the background attachment to fixed to maintain the image position during scrolling */
+    background-attachment: fixed;
+    /* Ensure the body takes up the full viewport height */
+    min-height: 100vh;
+  }
+  
 
 .container {
     width: 100%;
