@@ -21,6 +21,10 @@
     min-height: 765px;
     /* border: 2px solid red; */
 }
+.signuptitle{
+    /* border: 2px solid red; */
+    text-align: center;
+}
 @media (max-width:768px){
     .signuptitle{
         width: 350px;
