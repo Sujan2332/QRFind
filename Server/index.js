@@ -11,6 +11,7 @@ const QRCode = require("qrcode");
 const app = express();
 const PORT = 5000;
 const { JWT_SECRET_KEY } = process.env; // Store your secret key in environment variables
+const mongoURI = process.env.MONGODB_URI;
 
 // Middleware to verify JWT token and extract userId
 const authenticate = (req, res, next) => {
@@ -38,7 +39,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/personDB", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(`${mongoURI}`, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log("MongoDB connected"))
     .catch((err) => console.error(err));
 
