@@ -3,7 +3,7 @@
 *A simple React application that allows users to create and manage emergency contact information, generating a unique QR code for each entry. The app also provides functionality to view, print, and delete data entries.*
 
 # *Preview*
-*[Click For Preview](https://qrfind.onrender.com)*
+## *[Click For Preview](https://qrfind.onrender.com)*
 
 ## *Features*
 
