@@ -1,4 +1,4 @@
-# *Emergency Contact QR Code Generator*
+# <p align= "center"> *Emergency Contact QR Code Generator* </p>
 
 *A simple React application that allows users to create and manage emergency contact information, generating a unique QR code for each entry. The app also provides functionality to view, print, and delete data entries.*
 
@@ -42,6 +42,45 @@ npm start
 
 *The app will be available at `http://localhost:3000`.*
 
+## *File Structure*
+
+```
+QRCode/
+├── Client/
+│   ├── QRCode/
+│   │   ├── node_modules/
+│   │   ├── public/
+│   │   │   └── vite.svg
+│   │   ├── src/
+│   │   │   ├── assets/
+│   │   │   ├── admin.css
+│   │   │   ├── App.css
+│   │   │   ├── App.jsx
+│   │   │   ├── index.css
+│   │   │   ├── Login.jsx
+│   │   │   ├── main.jsx
+│   │   │   ├── QRScanner.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   └── UserDetails.jsx
+│   │   ├── .env
+│   │   ├── .gitignore
+│   │   ├── eslint.config.js
+│   │   ├── index.html
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── vite.config.js
+├── Server/
+│   ├── node_modules/
+│   ├── .env
+│   ├── .gitignore
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── README.md
+
+```
+
 ## *API Endpoints*
 
 - *`POST /api/person`:* Save emergency contact data and generate a QR code.
@@ -66,10 +105,6 @@ npm start
 
 5. *Delete Data:*
    - *Click the **Delete** button next to an entry to remove it from the list.*
-
-## *Example Output*
-
-*After submitting the form, the app will generate and display a QR code like this:*
 
 ## Example Output
 
