@@ -1,4 +1,4 @@
-# <p align= "center"> *Emergency Contact QR Code Generator* </p>
+# <p align= "center"> *Emergency Contact QR Code Generator 🚨* </p>
 
 *A simple React application that allows users to create and manage emergency contact information, generating a unique QR code for each entry. The app also provides functionality to view, print, and delete data entries.*
 
